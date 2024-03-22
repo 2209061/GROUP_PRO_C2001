@@ -1,0 +1,95 @@
+/* index.css */
+
+/* Container styles */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250;
+  width: 350;
+}
+
+/* Form styles */
+.form {
+  background-color: #ffa789;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 400px;
+}
+
+/* Textarea styles */
+.textarea,
+.file-input,
+.location-input,
+.cooking-request button,
+.cooking-request ul li {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.textarea {
+  border: 1px solid #ab5b84;
+  border-radius: 5px;
+  resize: none;
+}
+
+/* File input styles */
+.file-input {
+  border: 1px solid #ab5b84;
+  border-radius: 5px;
+}
+
+/* Cooking request styles */
+.cooking-request {
+  padding-bottom: 10px;
+}
+
+.cooking-request button {
+  width: 100%;
+  padding: 10px;
+  background-color: #ab5b84;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cooking-request button:hover {
+  background-color: #ffa789;
+}
+
+.cooking-request ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.cooking-request ul li {
+  cursor: pointer;
+}
+
+.cooking-time {
+  padding: 10px;
+}
+
+/* Submit button styles */
+.submit-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #ab5b84;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #28a745; /* Button color when hovered over */
+}
+
+.submit-button:active {
+  background-color: black; /* Button color when clicked */
+}
